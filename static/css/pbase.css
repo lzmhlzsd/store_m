@@ -1,0 +1,190 @@
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #fff;
+}
+
+
+.sidebar-menu-con {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 21;
+    transition: width .3s;
+    overflow: auto;
+}
+.ivu-menu-box {
+    height: 100%;
+    background: #495060;
+}
+.main-header-con {
+    position: fixed;
+    padding-left: 220px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    z-index: 20;
+    transition: padding .3s;
+}
+.main-header {
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+    z-index: 11;
+}
+
+.single-page-con {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 220px;
+    bottom: 0;
+    overflow: auto;
+    background-color: #fff;
+    z-index: 1;
+    transition: left .3s;
+}
+.logo-con {
+    padding: 8px;
+    text-align: center;
+}
+.main-header .navicon-con {
+    margin: 6px;
+    display: inline-block;
+}
+.main-header .header-middle-con {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    right: 340px;
+    bottom: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+.main-breadcrumb {
+    padding: 8px 15px 0;
+}
+.main-header .header-avator-con {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+}
+.user-dropdown-menu-con {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+}
+.user-dropdown-innercon {
+    height: 100%;
+    padding-right: 30px;
+}
+
+.table-filter-con { padding: 20px 10px 10px; }
+/* .table-filter-con input { width: 200px; } */
+
+.txt-center { text-align: center; }
+.txt-right { text-align: right; }
+
+
+/* 常用字体类 */
+.f-12 { font-size: 12px !important; }
+.f-14 { font-size: 14px !important; }
+.f-16 { font-size: 16px !important; }
+.f-18 { font-size: 18px !important; }
+.f-20 { font-size: 20px !important; }
+.f-22 { font-size: 22px !important; }
+.f-24 { font-size: 24px !important; }
+.f-26 { font-size: 26px !important; }
+.f-28 { font-size: 28px !important; }
+.f-30 { font-size: 30px !important; }
+
+/* 常用间距类 */
+.p-5 { padding: 5px; }
+.p-10 { padding: 10px; }
+.p-15 { padding: 15px; }
+.p-20 { padding: 20px; }
+.p-25 { padding: 25px; }
+.p-30 { padding: 30px; }
+
+.pt-5 { padding-top: 5px; }
+.pt-10 { padding-top: 10px; }
+.pt-15 { padding-top: 15px; }
+.pt-20 { padding-top: 20px; }
+.pt-25 { padding-top: 25px; }
+.pt-30 { padding-top: 30px; }
+
+.pr-5 { padding-right: 5px; }
+.pr-10 { padding-right: 10px; }
+.pr-15 { padding-right: 15px; }
+.pr-20 { padding-right: 20px; }
+.pr-25 { padding-right: 25px; }
+.pr-30 { padding-right: 30px; }
+
+.pb-5 { padding-bottom: 5px; }
+.pb-10 { padding-bottom: 10px; }
+.pb-15 { padding-bottom: 15px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-25 { padding-bottom: 25px; }
+.pb-30 { padding-bottom: 30px; }
+
+.pl-5 { padding-left: 5px; }
+.pl-10 { padding-left: 10px; }
+.pl-15 { padding-left: 15px; }
+.pl-20 { padding-left: 20px; }
+.pl-25 { padding-left: 25px; }
+.pl-30 { padding-left: 30px; }
+
+.m-5 { margin: 5px; }
+.m-10 { margin: 10px; }
+.m-15 { margin: 15px; }
+.m-20 { margin: 20px; }
+.m-25 { margin: 25px; }
+.m-30 { margin: 30px; }
+
+.mt-5 { margin-top: 5px; }
+.mt-10 { margin-top: 10px; }
+.mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; }
+.mt-25 { margin-top: 25px; }
+.mt-30 { margin-top: 30px; }
+
+.mr-5 { margin-right: 5px; }
+.mr-10 { margin-right: 10px; }
+.mr-15 { margin-right: 15px; }
+.mr-20 { margin-right: 20px; }
+.mr-25 { margin-right: 25px; }
+.mr-30 { margin-right: 30px; }
+
+.mb-5 { margin-bottom: 5px; }
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-25 { margin-bottom: 25px; }
+.mb-30 { margin-bottom: 30px; }
+
+.ml-5 { margin-left: 5px; }
+.ml-10 { margin-left: 10px; }
+.ml-15 { margin-left: 15px; }
+.ml-20 { margin-left: 20px; }
+.ml-25 { margin-left: 25px; }
+.ml-30 { margin-left: 30px; }
